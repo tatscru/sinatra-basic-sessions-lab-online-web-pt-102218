@@ -12,6 +12,8 @@ class App < Sinatra::Base
   end 
   
   post '/checkout' do 
+    session["name"] = "Victoria"
+    @session = session
   end 
   
 end
