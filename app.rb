@@ -7,4 +7,7 @@ class App < Sinatra::Base
     set :session_secret, "coded_figure"
   end
   
+  get '/' do 
+  end 
+  
 end
